@@ -1,3 +1,2 @@
 
-colorscheme desert
 colorscheme ayu

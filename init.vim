@@ -1,16 +1,15 @@
-source ~/.config/nvim/the-vim/settings.vim
-source ~/.config/nvim/the-vim/plugins.vim
-source ~/.config/nvim/the-vim/theme.vim
-source ~/.config/nvim/the-vim/mappings.vim
+let s:current_directory_path=expand('<sfile>:p:h')
+
+execute 'source '.s:current_directory_path.'/mappings.vim'
+execute 'source '.s:current_directory_path.'/plugins.vim'
+execute 'source '.s:current_directory_path.'/theme.vim'
+execute 'source '.s:current_directory_path.'/settings.vim'
+execute 'source '.s:current_directory_path.'/lua.vim'
 
 
 
 
 
-" previous settings
-" source ~/.config/nvim/settings.vim
-" source ~/.config/nvim/key-maps.vim
-"
 
 
 
